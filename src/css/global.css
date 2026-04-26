@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: oklch(45.13% 0.096 265.82);
+  --color-background: oklch(17.06% 0.011 248.44);
+  --color-background-foreground: oklch(97.02% 0 0);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--color-background);
+}
